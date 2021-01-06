@@ -7,4 +7,5 @@
 sample_standard_deviation <- NA
 sample_size <- NA
 
+# The standard error is the sample standard deviation.
 standard_error <- sample_standard_deviation / sqrt(sample_size)

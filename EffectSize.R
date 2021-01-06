@@ -6,4 +6,4 @@
 
 # It is unit free so it can be interpreted in different settings.
 delta <- alternative_statistic - null_statistic
-Effect_Size <- delta / sigma
+Effect_Size <- delta / standard_error

@@ -5,3 +5,9 @@
 ############
 
 standard_deviation <- sigma
+
+group_count <- NA
+
+Pooled_Standard_Deviation <- 
+  sqrt(((sample_size_1 - 1) * sigma_1 ^ 2 + (sample_size_2 - 1) * sigma_2 ^ 2) / 
+         (sample_size_1 + sample_size_2 - group_count))
